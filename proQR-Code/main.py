@@ -4,7 +4,7 @@ qr = qrcode.QRCode(
     version=1,
     error_correction= qrcode.constants,
     box_size=30,
-    border=2,
+    border=3,
 )
 
 qr.add_data('Gerador de QRCode py')
